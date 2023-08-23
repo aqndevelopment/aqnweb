@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+		
+        <title>Documentation</title>
+
+        <!-- Style CSS -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+		
+		<link rel="icon" type="image/png" href="images/favicon.png">
+    </head>
+
+    <body data-spy="scroll" data-target=".sidebar" data-offset="200">
+        <!-- Sidebar -->
+        <aside class="sidebar sidebar-boxed sidebar-dark"> 
+        	<div class="l-top-logo"><img src="images/Logo-light.png" alt=""></div> 
+            <ul class="nav sidenav dropable">
+                           
+                <li><a href="#introduction">Template Features</a></li>
+                <li><a href="#getting_started" title="Getting Started">Folders in Zip file</a></li>
+                <li><a href="#head_css_structure" title="HEAD CSS Structure">HEAD CSS Structure</a></li>
+                <li><a href="#javascript_structure" title="Javascript Structure">Javascript Structure</a></li>
+                <li><a href="#html_structure" title="HTML Structure">HTML Structure</a></li>
+                <li><a href="#Features" title="Features">Features</a></li>
+                <li><a href="#contactform" title="Contact Form">Contact Form</a></li>
+                <li><a href="#slider-edit" title="Owl Carousel Edit Option">Owl Carousel Edit</a></li>
+                <li><a href="#swiper-edit" title="Swiper Carousel Edit Option">Swiper Carousel Edit</a></li>
+                <li><a href="#preloader-hide" title="How to edit/off Preloader">Preloader</a></li>
+                <li><a href="#credits" title="Credits">Credits</a></li>
+                <li><a href="#supports" title="Support">Support</a></li> 
+           
+            </ul>
+        </aside>
+        <!-- END Sidebar -->
+        
+        <main class="container-fluid"> 
+            <!-- Main content -->
+            <article class="main-content" role="main">
+            
+                         
+            
+            	<!--Template Features:-->
+                <section id="introduction">
+                    <div class="page-header">
+                        <h4>Template Features</h4>
+                    </div>
+                    <ul>
+                        <li>Unique Home Pages</li>
+                        <li>Easy to customize</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>Clean & Simple Design</li>
+                        <li>Fully Responsive Layout</li>
+                        <li>Crossbrowser Compatible</li>
+                        <li>W3 Valid</li>
+                        <li>FlatIcons and Fontawesome icons</li>
+                        <li>Powered with Bootstrap Version</li>
+                        <li>Working Contact Form</li>
+                    </ul>
+                </section>
+               
+               <!--Folders in Zip File-->
+                <section id="getting_started">
+                    <div class="page-header">
+                        <h4>Folders in Zip File</h4>
+                    </div>
+                    <ol>
+                        <li><strong>css</strong> — folder with CSS and SCSS files.</li>
+                        <li><strong>fonts</strong> — folder with fonts files.</li>
+                        <li><strong>images</strong> — folder with images files.</li>
+                        <li><strong>js</strong> — folder with Javascript files.</li>
+                    </ol>
+
+                    <h6 style="margin-top: 20px;"><strong>HTML Files:</strong></h6>
+                    <ol>
+                        <li><span>about-us.html</span><strong> — About 1 page</strong></li>
+                        <li><span>blog-detail.html</span><strong> — Blog detail page</strong></li>
+                        <li><span>blog-detail-sidebar.html</span><strong> — Blog detail sidebar page</strong></li>                            
+                        <li><span>blog-grid.html</span><strong> — Blog grid page</strong></li>
+                        <li><span>blog-single-grid.html</span><strong> — Blog single grid page</strong></li>
+                        <li><span>contact.html</span><strong> — Contact page</strong></li> 
+                        <li><span>gallery.html</span><strong> — Gallery Page</strong></li>
+                        <li><span>faq-page.html</span><strong> — FAQ Page</strong></li>
+                        <li><span>icon-font.html</span><strong> — Icons page</strong></li>
+                        <li><span>index.html</span><strong> — Home page 1</strong></li>
+                        <li><span>index-2.html</span><strong> — Home page 2</strong></li>
+                        <li><span>index-3.html</span><strong> — Home page 3</strong></li>
+                        <li><span>mission-vision.html</span><strong> — Mission vision page</strong></li>
+                        <li><span>our-service.html</span><strong> — Home page 3</strong></li>
+                        <li><span>our-services-detail.html</span><strong> — Our service page</strong></li>
+                        <li><span>our-team.html</span><strong> — Our team page</strong></li>
+                        <li><span>portfolio.html</span><strong> — Home portfolio page</strong></li>
+                        <li><span>portfolio-2.html</span><strong> — Home portfolio 2</strong></li>
+                        <li><span>portfolio-detail.html</span><strong> — Home portfolio detail</strong></li>
+                        <li><span>price-table.html</span><strong> — Home price table page</strong></li>
+                        <li><span>testimonial.html</span><strong> — Home testimonial page</strong></li>
+                        <li><span>why-choose-us.html</span><strong> — Home why choose us</strong></li>
+                        <li><strong>There are many other html pages...</strong></li>
+					</ol>
+
+                </section>
+               
+               <!--HEAD CSS Structure--> 
+                <section id="head_css_structure">
+                    <div class="page-header">
+                        <h4>HEAD CSS Structure</h4>
+                    </div>
+                    <p>Followings are the <strong>css</strong> files which loaded inside the <strong>Head Section</strong>:</p>
+<pre class="line-numbers">
+<code class="language-markup">
+    &#x3C;head&#x3E;
+
+    &#x9;&#x3C;!-- META --&#x3E;
+        &#x3C;meta charset=&#x22;utf-8&#x22;&#x3E;
+        &#x3C;meta http-equiv=&#x22;X-UA-Compatible&#x22; content=&#x22;IE=edge&#x22;&#x3E;
+        &#x3C;meta name=&#x22;keywords&#x22; content=&#x22;&#x22;&#x3E;
+        &#x3C;meta name=&#x22;author&#x22; content=&#x22;&#x22;&#x3E;
+        &#x3C;meta name=&#x22;robots&#x22; content=&#x22;&#x22;&#x3E;    
+        &#x3C;meta name=&#x22;description&#x22; content=&#x22;&#x22;&#x3E;
+        
+        &#x3C;!-- FAVICONS ICON --&#x3E;
+        &#x3C;link rel=&#x22;icon&#x22; href=&#x22;images/favicon.ico&#x22; type=&#x22;image/x-icon&#x22;&#x3E;
+        &#x3C;link rel=&#x22;shortcut icon&#x22; type=&#x22;image/x-icon&#x22; href=&#x22;images/favicon.png&#x22;&#x3E;
+        
+        &#x3C;!-- PAGE TITLE HERE --&#x3E;
+        &#x3C;title&#x3E;itodo Template | Gallery Page&#x3C;/title&#x3E;
+         
+        &#x3C;!-- MOBILE SPECIFIC --&#x3E;
+        &#x3C;meta name=&#x22;viewport&#x22; content=&#x22;width=device-width, initial-scale=1&#x22;&#x3E;                                                                  
+           
+        &#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;css/bootstrap.min.css&#x22;&#x3E;&#x3C;!-- BOOTSTRAP STYLE SHEET --&#x3E;    
+        &#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;css/fontawesome/css/font-awesome.min.css&#x22;&#x3E;&#x3C;!-- FONTAWESOME STYLE SHEET --&#x3E;
+        &#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;css/owl.carousel.min.css&#x22;&#x3E;&#x3C;!-- OWL CAROUSEL STYLE SHEET --&#x3E;
+        &#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;css/magnific-popup.min.css&#x22;&#x3E;&#x3C;!-- MAGNIFIC POPUP STYLE SHEET --&#x3E;&#x9;
+        &#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;css/loader.min.css&#x22;&#x3E;&#x3C;!-- LOADER STYLE SHEET --&#x3E;
+        &#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;css/flaticon.min.css&#x22;&#x3E;&#x3C;!-- FLATICON STYLE SHEET --&#x3E;
+    &#x9;&#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;css/animate.css&#x22; &#x3E;&#x3C;!-- WOW ANIMATE STYLE SHEET --&#x3E;
+        &#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;css/feather.css&#x22; &#x3E;&#x3C;!-- Feather STYLE SHEET --&#x3E;
+        &#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;css/lc_lightbox.css&#x22;&#x3E;&#x3C;!-- IMAGE POPUP --&#x3E;  
+        &#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;css/swiper-bundle.min.css&#x22;&#x3E;&#x3C;!-- SWIPER SLIDER CSS --&#x3E;
+        &#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;css/style.css&#x22;&#x3E;&#x3C;!-- MAIN STYLE SHEET --&#x3E;
+    
+    &#x3C;/head&#x3E;
+</code>
+</pre>
+                </section>
+                
+
+				
+				<!--Javascript Structure--> 
+                <section id="javascript_structure">
+                    <div class="page-header">
+                        <h4>Javascript Structure</h4>
+                    </div>
+                    <p>Followings are the <strong>JS</strong> files which loaded before the end of <strong>HEAD or BODY Section:</strong>.</p>
+<pre class="line-numbers">
+<code class="language-markup">
+    &#x3C;!-- JAVASCRIPT  FILES ========================================= --&#x3E; 
+    &#x3C;script src=&#x22;js/jquery-3.6.1.min.js.js&#x22;&#x3E;&#x3C;/script&#x3E;&#x3C;!-- JQUERY.MIN JS --&#x3E;
+    &#x3C;script src=&#x22;js/popper.min.js&#x22;&#x3E;&#x3C;/script&#x3E;&#x3C;!-- POPPER.MIN JS --&#x3E;
+    &#x3C;script src=&#x22;js/bootstrap.min.js&#x22;&#x3E;&#x3C;/script&#x3E;&#x3C;!-- BOOTSTRAP.MIN JS --&#x3E;
+    &#x3C;script src=&#x22;js/magnific-popup.min.js&#x22;&#x3E;&#x3C;/script&#x3E;&#x3C;!-- MAGNIFIC-POPUP JS --&#x3E;
+    &#x3C;script src=&#x22;js/waypoints.min.js&#x22;&#x3E;&#x3C;/script&#x3E;&#x3C;!-- WAYPOINTS JS --&#x3E;
+    &#x3C;script src=&#x22;js/counterup.min.js&#x22;&#x3E;&#x3C;/script&#x3E;&#x3C;!-- COUNTERUP JS --&#x3E;
+    &#x3C;script src=&#x22;js/waypoints-sticky.min.js&#x22;&#x3E;&#x3C;/script&#x3E;&#x3C;!-- sticky header JS --&#x3E;
+    &#x3C;script src=&#x22;js/isotope.pkgd.min.js&#x22;&#x3E;&#x3C;/script&#x3E;&#x3C;!-- MASONRY  --&#x3E;
+    &#x3C;script src=&#x22;js/imagesloaded.pkgd.min.js&#x22;&#x3E;&#x3C;/script&#x3E;&#x3C;!-- MASONRY  --&#x3E;
+    &#x3C;script src=&#x22;js/owl.carousel.min.js&#x22;&#x3E;&#x3C;/script&#x3E;&#x3C;!-- OWL  SLIDER  --&#x3E;
+    &#x3C;script src=&#x22;js/theia-sticky-sidebar.js&#x22;&#x3E;&#x3C;/script&#x3E;&#x3C;!--sticky content--&#x3E;
+    &#x3C;script src=&#x22;js/wow.js&#x22;&#x3E;&#x3C;/script&#x3E;&#x3C;!-- WOW JS --&#x3E;
+    &#x3C;script src=&#x22;js/lc_lightbox.lite.js&#x22; &#x3E;&#x3C;/script&#x3E;&#x3C;!-- IMAGE POPUP --&#x3E;
+    &#x3C;script src=&#x22;js/swiper-bundle.min.js&#x22;&#x3E;&#x3C;/script&#x3E;&#x3C;!-- Swiper js --&#x3E;
+    &#x3C;script src=&#x22;js/custom.js&#x22;&#x3E;&#x3C;/script&#x3E;&#x3C;!-- CUSTOM FUCTIONS  --&#x3E;
+     
+</code>
+</pre>
+                </section>
+				
+				<!--HTML Structure-->                 
+                <section id="html_structure">
+                    <div class="page-header">
+                        <h4>HTML Structure</h4>
+                    </div>
+
+<pre class="line-numbers">
+<code class="language-markup">
+    &#x3C;!-- OUR SERVICES SECTION START --&#x3E;
+    &#x3C;div  class=&#x22;section-full p-t110 p-b80 sx-our-services-outer sx-bg-light&#x22; &#x3E;
+        &#x3C;div class=&#x22;container&#x22;&#x3E;
+
+            &#x3C;!-- TITLE START --&#x3E;
+            &#x3C;div class=&#x22;section-head center&#x22;&#x3E;
+                &#x3C;div class=&#x22;sx-head-s-title&#x22;&#x3E;Our Services&#x3C;/div&#x3E;
+                &#x3C;div class=&#x22;sx-head-l-title&#x22;&#x3E;
+                    &#x3C;h2 class=&#x22;sx-title&#x22;&#x3E;Sophisticated Knowledge For Rapidly Emerging Legal service of Our IT Solution!&#x3C;/h2&#x3E;
+                &#x3C;/div&#x3E;
+            &#x3C;/div&#x3E;                   
+            &#x3C;!-- TITLE END --&#x3E; 
+
+
+&#x9;&#x9;&#x9;&#x3C;div class=&#x22;section-content&#x22;&#x3E;
+                &#x9;&#x3C;div class=&#x22;sx-our-services-bx&#x22;&#x3E;
+                        &#x3C;div class=&#x22;row&#x22;&#x3E;
+
+                            &#x3C;!-- Block one --&#x3E;
+                            &#x3C;div class=&#x22;col-lg-4 col-md-6 wow fadeInDown&#x22; data-wow-duration=&#x22;1000ms&#x22;&#x3E;
+                                &#x3C;div class=&#x22;sx-service-bx-1&#x22;&#x3E;
+                                    &#x3C;div class=&#x22;sx-icon-box-wraper&#x22;&#x3E;
+                                        &#x3C;div class=&#x22;sx-service-bx-icon scale-in-center&#x22;&#x3E;
+                                            &#x3C;span class=&#x22;sx-text-primary&#x22;&#x3E;&#x3C;i class=&#x22;flaticon-security&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/span&#x3E;
+                                        &#x3C;/div&#x3E;
+                                        &#x3C;div class=&#x22;icon-content&#x22;&#x3E;
+                                            &#x3C;h4 class=&#x22;sx-tilte&#x22;&#x3E;Product Engineering&#x3C;/h4&#x3E;
+                                            &#x3C;p&#x3E;Orem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget cursus massa. Aliquam erat volutpat Morbi ligula magna.&#x3C;/p&#x3E;
+                                            &#x3C;div class=&#x22;sx-center-btn&#x22;&#x3E;
+                                                &#x3C;a href=&#x22;our-services-detail.html&#x22; class=&#x22;site-button-circle&#x22;&#x3E;
+                                                    &#x3C;i class=&#x22;fa fa-long-arrow-right&#x22;&#x3E;&#x3C;/i&#x3E;
+                                                &#x3C;/a&#x3E;
+                                            &#x3C;/div&#x3E;
+                                        &#x3C;/div&#x3E;
+                                    &#x3C;/div&#x3E;
+                                &#x3C;/div&#x3E;                            &#x9;
+                            &#x3C;/div&#x3E;
+                            &#x3C;!-- Block Two --&#x3E;
+                            &#x3C;div class=&#x22;col-lg-4 col-md-6 wow fadeInDown&#x22; data-wow-duration=&#x22;1000ms&#x22;&#x3E;
+                                &#x3C;div class=&#x22;sx-service-bx-1&#x22;&#x3E;
+                                    &#x3C;div class=&#x22;sx-icon-box-wraper&#x22;&#x3E;
+                                        &#x3C;div class=&#x22;sx-service-bx-icon scale-in-center&#x22;&#x3E;
+                                            &#x3C;span class=&#x22;sx-text-primary&#x22;&#x3E;&#x3C;i class=&#x22;flaticon-coding&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/span&#x3E;
+                                        &#x3C;/div&#x3E;
+                                        &#x3C;div class=&#x22;icon-content&#x22;&#x3E;
+                                            &#x3C;h4 class=&#x22;sx-tilte&#x22;&#x3E;Big Data &#x26; Analytics&#x3C;/h4&#x3E;
+                                            &#x3C;p&#x3E;Orem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget cursus massa. Aliquam erat volutpat Morbi ligula magna.&#x3C;/p&#x3E;
+                                            &#x3C;div class=&#x22;sx-center-btn&#x22;&#x3E;
+                                                &#x3C;a href=&#x22;our-services-detail.html&#x22; class=&#x22;site-button-circle active&#x22;&#x3E;
+                                                    &#x3C;i class=&#x22;fa fa-long-arrow-right&#x22;&#x3E;&#x3C;/i&#x3E;
+                                                &#x3C;/a&#x3E;
+                                            &#x3C;/div&#x3E;
+                                        &#x3C;/div&#x3E;
+                                    &#x3C;/div&#x3E;
+                                &#x3C;/div&#x3E;                            &#x9;
+                            &#x3C;/div&#x3E;
+                            
+                            &#x3C;!-- Block Three --&#x3E;
+                            &#x3C;div class=&#x22;col-lg-4 col-md-6 wow fadeInDown&#x22; data-wow-duration=&#x22;1000ms&#x22;&#x3E;
+                                &#x3C;div class=&#x22;sx-service-bx-1&#x22;&#x3E;
+                                    &#x3C;div class=&#x22;sx-icon-box-wraper&#x22;&#x3E;
+                                        &#x3C;div class=&#x22;sx-service-bx-icon scale-in-center&#x22;&#x3E;
+                                            &#x3C;span class=&#x22;sx-text-primary&#x22;&#x3E;&#x3C;i class=&#x22;flaticon-smart-contracts&#x22;&#x3E;&#x3C;/i&#x3E;&#x3C;/span&#x3E;
+                                        &#x3C;/div&#x3E;
+                                        &#x3C;div class=&#x22;icon-content&#x22;&#x3E;
+                                            &#x3C;h4 class=&#x22;sx-tilte&#x22;&#x3E;Creative Solutions&#x3C;/h4&#x3E;
+                                            &#x3C;p&#x3E;Orem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget cursus massa. Aliquam erat volutpat Morbi ligula magna.&#x3C;/p&#x3E;
+                                            &#x3C;div class=&#x22;sx-center-btn&#x22;&#x3E;
+                                                &#x3C;a href=&#x22;our-services-detail.html&#x22; class=&#x22;site-button-circle&#x22;&#x3E;
+                                                    &#x3C;i class=&#x22;fa fa-long-arrow-right&#x22;&#x3E;&#x3C;/i&#x3E;
+                                                &#x3C;/a&#x3E;
+                                            &#x3C;/div&#x3E;
+                                        &#x3C;/div&#x3E;
+                                    &#x3C;/div&#x3E;
+                                &#x3C;/div&#x3E;                            &#x9;
+                            &#x3C;/div&#x3E;
+                          &#x3C;/div&#x3E;
+                    &#x3C;/div&#x3E;
+               &#x3C;/div&#x3E;
+         &#x3C;/div&#x3E;
+       
+    &#x3C;/div&#x3E;   
+    &#x3C;!-- OUR SERVICES SECTION END --&#x3E;
+
+</code>
+</pre>
+                </section>
+                
+				<!--Features-->                 
+                <section id="Features">
+                    <div class="page-header">
+                        <h4>Features</h4>
+                    </div>
+                    <p>Click this button</p>
+                    <div class="pop-inline-title">
+                   				<!-- Filter -->
+                                <button type="button" class="button-bg-none m-r15" data-toggle="modal" data-target="#Fillter">Fillter <i class="fa fa-angle-right slide-right"></i></button>
+                                <!-- MODAL -->
+                                <div id="Fillter" class="modal fade" role="dialog">
+                                    <div class="modal-dialog modal-lg">
+                                        <!-- MODAL CONTENT -->
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <img src="images/4.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+
+                               <!-- Sticky Header -->
+                                <button type="button" class="button-bg-none m-r15" data-toggle="modal" data-target="#Sticky_Header">Sticky Header <i class="fa fa-angle-right slide-right"></i></button>
+                                <!-- MODAL -->
+                                <div id="Sticky_Header" class="modal fade" role="dialog">
+                                    <div class="modal-dialog modal-lg">
+                                        <!-- MODAL CONTENT -->
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <img src="images/7.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                                <!-- Youtube video with popup  -->
+                                <button type="button" class="button-bg-none m-r15" data-toggle="modal" data-target="#Youtube_video_with_popup">Youtube video with popup <i class="fa fa-angle-right slide-right"></i></button>
+                                <!-- MODAL -->
+                                <div id="Youtube_video_with_popup" class="modal fade" role="dialog">
+                                    <div class="modal-dialog modal-lg">
+                                        <!-- MODAL CONTENT -->
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <img src="images/9.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                               
+
+
+                                <!-- Youtube video with popup  -->
+                                <button type="button" class="button-bg-none m-r15" data-toggle="modal" data-target="#Vimeo_video_with_popup">Vimeo video with popup <i class="fa fa-angle-right slide-right"></i></button>
+                                <!-- MODAL -->
+                                <div id="Vimeo_video_with_popup" class="modal fade" role="dialog">
+                                    <div class="modal-dialog modal-lg">
+                                        <!-- MODAL CONTENT -->
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <img src="images/10.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                       </div>                                          
+
+                </section> 
+                
+              
+
+                
+ 				<!--Contact Form--> 
+                <section id="contactform">
+                    <div class="page-header">
+                        <h4>For Contact form</h4>
+                    </div>
+                    <h4>1.You have to put smtp detail inside mail.php file for contact form to run</h4>
+                    <b><img src="images/contact-form.jpg"></b>
+                    <br>
+                    <br>
+                    <br>
+                    <h4>2.You will also need to make some changes inside the custom.js file</h4>
+                    <b><img src="images/contact-form-2.jpg"></b>
+                    <br>
+                    <br>            
+
+                </section> 
+
+                <!--Contact us page map-->
+                
+                
+                  
+                
+
+				<!-- Owl Carousel Edit Option--> 
+				<section id="slider-edit">
+                    <div class="page-header">
+                        <h4>Owl Carousel Edit Option</h4>
+                    </div>
+					<p>File path: js/custome.js</p>
+					
+<pre class="line-numbers">
+<code class="language-css">
+    //________Home page latest blog function by = owl.carousel.js________//&#x9;
+    &#x9;function sx_latest_blog_1_carousel(){
+    &#x9;&#x9;jQuery(&#x27;.sx-latest-blog-1-carousel&#x27;).owlCarousel({
+    &#x9;&#x9;&#x9;loop:true,
+    &#x9;&#x9;&#x9;autoplay:false,
+    &#x9;&#x9;&#x9;margin:30,
+    &#x9;&#x9;&#x9;autoplayTimeout:6000,
+    &#x9;&#x9;&#x9;nav:false,
+    &#x9;&#x9;&#x9;dots: true,
+    &#x9;&#x9;&#x9;navText: [&#x27;&#x3C;i class=&#x22;flaticon-left-chevron&#x22;&#x3E;&#x3C;/i&#x3E;&#x27;, &#x27;&#x3C;i class=&#x22;flaticon-chevron&#x22;&#x3E;&#x3C;/i&#x3E;&#x27;],
+    &#x9;&#x9;&#x9;responsive:{
+    &#x9;&#x9;&#x9;&#x9;0:{
+    &#x9;&#x9;&#x9;&#x9;&#x9;items:1
+    &#x9;&#x9;&#x9;&#x9;},
+    &#x9;&#x9;&#x9;&#x9;991:{
+    &#x9;&#x9;&#x9;&#x9;&#x9;items:2,
+    &#x9;&#x9;&#x9;&#x9;},
+    &#x9;&#x9;&#x9;&#x9;1200:{
+    &#x9;&#x9;&#x9;&#x9;&#x9;items:3
+    &#x9;&#x9;&#x9;&#x9;}
+    &#x9;&#x9;&#x9;}
+    &#x9;&#x9;});
+    &#x9;}
+</code>
+</pre>
+                    <p><strong>More Info please browser the link: <a href="https://owlcarousel2.github.io/OwlCarousel2/docs/api-options.html" target="_blank">Owl Carousel Docs Options</a></strong></p>
+                </section>
+
+				<!-- Swiper Carousel Edit Option--> 
+				<section id="swiper-edit">
+                    <div class="page-header">
+                        <h4>Swiper Carousel Edit Option</h4>
+                    </div>
+					<p>File path: js/custome.js</p>
+					
+<pre class="line-numbers">
+<code class="language-css">
+    //________ Home 1 banner slider function by = swiper-bundle.min.js ________//
+    &#x9;function sx_home_bnr_1(){
+    &#x9;&#x9;var swiper = new Swiper(&#x27;.home-1-slider&#x27;, {
+    
+    &#x9;&#x9;&#x9;    loop: true,
+    &#x9;&#x9;&#x9;&#x9;spaceBetween: 30,
+    &#x9;&#x9;&#x9;&#x9;effect: &#x22;fade&#x22;,
+    &#x9;&#x9;&#x9;&#x9;navigation: {
+    &#x9;&#x9;&#x9;&#x9;  nextEl: &#x22;.swiper-button-next&#x22;,
+    &#x9;&#x9;&#x9;&#x9;  prevEl: &#x22;.swiper-button-prev&#x22;,
+    &#x9;&#x9;&#x9;&#x9;},
+    &#x9;&#x9;&#x9;&#x9;pagination: {
+    &#x9;&#x9;&#x9;&#x9;  el: &#x22;.swiper-pagination&#x22;,
+    &#x9;&#x9;&#x9;&#x9;  clickable: true,
+    &#x9;&#x9;&#x9;&#x9;},
+    &#x9;&#x9;&#x9;&#x9;autoplay: {
+    &#x9;&#x9;&#x9;&#x9;&#x9;delay: 7000,
+    &#x9;&#x9;&#x9;&#x9;&#x9;disableOnInteraction: true,
+    &#x9;&#x9;&#x9;&#x9;},
+    &#x9;&#x9;});
+    &#x9;}
+</code>
+</pre>
+                    <p><strong>More Info please browser the link: <a href="https://swiperjs.com/swiper-api" target="_blank">Swiper Carousel Docs Options</a></strong></p>
+                </section>
+                
+				 
+                <!-- How to edit/off Preloader-->  
+				<section id="preloader-hide">
+                    <div class="page-header">
+                        <h4>How to edit/off Preloader</h4>
+                    </div>
+                    <p>Please remove or comment the below code file path: js/custome.js</p>
+<pre class="line-numbers">
+<code class="language-css">
+// > page loader function by = custom.js ========================= //		
+	function page_loader() {
+		$('.loading-area').fadeOut(1000);
+	}
+</code>
+</pre>
+
+<p>Also, please remove or comment the below code all HTML files</p>
+<pre class="line-numbers">
+<code class="language-css">
+    &#x3C;!-- LOADING AREA START ===== --&#x3E;
+    &#x3C;div class=&#x22;loading-area&#x22;&#x3E;
+        &#x3C;div class=&#x22;loading-box&#x22;&#x3E;&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;loading-pic&#x22;&#x3E;
+            &#x3C;div class=&#x22;loading&#x22;&#x3E;
+                &#x3C;h2&#x3E;&#x3C;img src=&#x22;images/footer-logo.png&#x22; alt=&#x22;#&#x22;&#x3E;&#x3C;/h2&#x3E;
+                &#x3C;span&#x3E;&#x3C;/span&#x3E;
+                &#x3C;span&#x3E;&#x3C;/span&#x3E;
+                &#x3C;span&#x3E;&#x3C;/span&#x3E;
+                &#x3C;span&#x3E;&#x3C;/span&#x3E;
+                &#x3C;span&#x3E;&#x3C;/span&#x3E;
+                &#x3C;span&#x3E;&#x3C;/span&#x3E;
+                &#x3C;span&#x3E;&#x3C;/span&#x3E;
+              &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;!-- LOADING AREA  END ====== --&#x3E;
+</code>
+</pre>
+                </section>
+
+                <!-- Credits-->				 
+                <section id="credits">
+                    <div class="page-header">
+                        <h4>Credits</h4>
+                    </div>
+                    <p><strong>Note:</strong> All <strong>images</strong> are used for <strong>preview</strong> purpose only and <strong>not included</strong> in the <strong>final purchase</strong> files.</p>
+                    <p> <strong>Images from:</strong><br />
+                        <a target="_blank" href="https://www.freepik.com/">https://www.freepik.com/</a> &nbsp; ——— &nbsp;
+                        <a target="_blank" href="https://unsplash.com/">https://unsplash.com/</a>
+                    </p>
+                    <p> 
+						<strong>Google Fonts:</strong><br/>
+                        <a href="https://fonts.google.com/specimen/Manrope?query=Manrope" target="_blank">Manrope</a><br>
+                        <a href="https://fonts.google.com/specimen/Jost?query=jost" target="_blank">Jost</a><br>
+                        <a href="https://fonts.google.com/specimen/Poppins?query=poppins" target="_blank">Poppins</a>
+					</p>
+                    <p>
+						<strong>IconFont</strong><br>
+						<a href="https://flaticon.com/" target="_blank">FlatIcon</a>
+					</p>
+                </section>
+
+                <section id="supports" class="text-center">
+                    <p> If you have any questions, please use our profile contact form on Envato ( <a target="_blank" href="https://themeforest.net/user/7xtheme">https://themeforest.net/user/7xtheme</a> ).</p>
+                    <p>This documentation is March 2023</p>
+                    <p>Thank you for purchasing this HTML template.</p>
+                    <p><strong>If you like this template, Please support us by rating this template with 5 stars </strong> 
+                    <span><i class="fa fa-star" style="color:#ff7c0c"></i><i class="fa fa-star" style="color:#ff7c0c"></i><i class="fa fa-star" style="color:#ff7c0c"></i><i class="fa fa-star" style="color:#ff7c0c"></i><i class="fa fa-star" style="color:#ff7c0c"></i></span> </p>
+                    <p>We hope you found this document helpful. Thank you!</p>
+                </section>   
+                
+               
+            </article>
+            <!-- END Main content --> 
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer text-center">
+            <div class="container-fluid"> <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+
+                <p>Copyright &copy; 2023. All right reserved</p>
+
+            </div>
+        </footer>
+        <!-- END Footer -->
+		
+		
+		<!-- Scripts -->
+        <script src="js/jQuery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
