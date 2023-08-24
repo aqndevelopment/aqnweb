@@ -12,7 +12,7 @@
     <meta name="description" content="">
 
     <!-- FAVICONS ICON -->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{ asset('images/favicon.ico')}}" type="image/x-icon">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
     <!-- PAGE TITLE HERE -->
@@ -92,7 +92,26 @@
     <script src="{{asset('js/lc_lightbox.lite.js')}}"></script><!-- IMAGE POPUP -->
     <script src="{{asset('js/swiper-bundle.min.js')}}"></script><!-- Swiper js -->
     <script src="{{asset('js/custom.js')}}"></script><!-- CUSTOM FUCTIONS  -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        const navLinks = document.querySelectorAll("nav a");
 
+        navLinks.forEach(link => {
+            link.addEventListener("click", function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute("href");
+                const targetSection = document.querySelector(targetId);
+
+                if (targetSection) {
+                    targetSection.scrollIntoView({
+                        behavior: "smooth"
+                    });
+                }
+            });
+        });
+    });
+    </script>
 </body>
 
 

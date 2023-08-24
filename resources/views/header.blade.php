@@ -35,52 +35,12 @@
                 <!-- MAIN NAVIGATION -->
                 <div class="header-nav navbar-collapse collapse d-flex justify-content-center collapse ">
                     <ul class=" nav navbar-nav ">
-                        <li class="active">
-                            <a href="javascript:;">Home</a>
-                            <ul class="sub-menu">
-                                <li><a href="index.html">Home-1</a></li>
-                                <li><a href="index-2.html">Home-2</a></li>
-                                <li><a href="index-3.html">Home-3</a></li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="javascript:;">Company</a>
-                            <ul class="sub-menu">
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="faq-page.html">Faq Page</a></li>
-                                <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="icon-font.html">Icons</a></li>
-                                <li><a href="testimonial.html">Testimonials</a></li>
-                                <li><a href="why-choose-us.html">Why Choose Us</a></li>
-                                <li><a href="price-table.html">Pricing</a></li>
-                                <li><a href="our-team.html">Team</a></li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="javascript:;">IT Solutions</a>
-                            <ul class="sub-menu">
-                                <li><a href="mission-vision.html">Mission & Vision</a></li>
-                                <li><a href="our-services.html">Services</a></li>
-                                <li><a href="our-services-detail.html">Services Detail</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="portfolio-2.html">Portfolio-2</a></li>
-                                <li><a href="portfolio-detail.html">Portfolio Detail</a></li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="javascript:;">IT Blogs</a>
-                            <ul class="sub-menu">
-                                <li><a href="blog-grid.html">Blog</a></li>
-                                <li><a href="blog-single-grid.html">Blog Grid Sidebar </a></li>
-                                <li><a href="blog-detail-sidebar.html">Blog Detail Sidebar</a></li>
-                                <li><a href="blog-detail-full.html">Blog Detail</a></li>
-                            </ul>
-                        </li>
-
-                        <li><a href="contact.html">Contact Us</a></li>
+                             <li><a href="{{url("/");}}">Home</a></li>
+                             <li><a href="{{url("/#about");}}">About</a></li>
+                             <li><a href="{{url("/#works");}}">Works</a></li>
+                             <li><a href="{{url("/#ourskills");}}">Our Skills</a></li>
+                             <li><a href="{{url("/ourteam");}}">Our Team</a></li>
+                             <li><a href="{{url("/contact");}}">Contact</a></li>
 
                     </ul>
                 </div>
