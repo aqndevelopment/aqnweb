@@ -6,7 +6,7 @@
             <div class="container clearfix">
                 <div class="logo-header">
                     <div class="logo-header-inner logo-header-one">
-                        <a href="index.html">
+                        <a href="{{url("/");}}">
                             <img src="images/Logo-light.png" alt="#">
                         </a>
                     </div>
