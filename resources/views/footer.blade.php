@@ -8,7 +8,7 @@
             <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
                 <div class="widget widget_about">
                     <div class="logo-footer clearfix p-b15">
-                        <a href="index.html" class="sx-text-primary"><img src="images/footer-logo.png" alt="image"></a>
+                        <a href="index.html" class="sx-text-primary"><img src="{{ asset('images/footer-logo.png') }}" alt="image"></a>
                     </div>
                     <p>Komplek Deplu 2, Jl. Gaharu 1 No. 5, Cilandak Barat, RT.5/RW.11, Cilandak Bar., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12410
                     </p>

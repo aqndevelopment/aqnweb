@@ -545,7 +545,7 @@ HEADER (top part of page)
 
 /*____WHEN HEADER IS STICKY____*/
 
-.header-style2 .is-fixed .main-bar {position: fixed;top: 0;left: 0;}
+.header-style2 .is-fixed .main-bar {position: fixed;top: 0;left: 0;background-color: #403e3e;}
 .header-style2 .is-fixed .extra-nav {padding: 13px 0;}
 .header-style2 .is-fixed .color-fill.main-bar {  background-color: #322f36;}
 

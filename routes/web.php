@@ -2,6 +2,10 @@
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\OurteamController;
+use App\Http\Controllers\PartnerController;
+use App\Http\Controllers\ContactController;
+
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,3 +21,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/ourteam', [OurteamController::class, 'index']);
+Route::get('/contact', [ContactController::class, 'index']);
+Route::get('/partner/{slug}', [PartnerController::class, 'show'])->name('partner.show');
+

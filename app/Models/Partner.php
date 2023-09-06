@@ -5,15 +5,17 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Partners extends Model
+class Partner extends Model
 {
     protected $table = 'tb_partners'; // Update the table name to match your existing table
 
     protected $primaryKey = 'id';   // Customize the primary key column name if needed
 
     protected $fillable = [
-        'nama','desc','link','image'
+        'nama','image','link','desc','slugs'
     ];
 
     // Define relationships and other methods here
 }
+
+

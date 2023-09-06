@@ -187,7 +187,7 @@
                         <div class="row justify-content-center">
                             @foreach($partners as $partner)
                             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                                <a href="" class="client-logo-pic">
+                                <a href="{{url('/partner/'.$partner->slugs)}}" class="client-logo-pic" target="_blank" >
                                     <img src="{{ asset('images/partners/'.$partner->image) }}" alt="">
                                 </a>
                             </div>
