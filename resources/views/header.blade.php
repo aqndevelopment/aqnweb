@@ -40,7 +40,7 @@
                              <li><a href="{{url("/#works");}}">Works</a></li>
                              <li><a href="{{url("/#ourskills");}}">Our Skills</a></li>
                              <li><a href="{{url("/ourteam");}}">Our Team</a></li>
-                             <li><a href="{{url("/contact");}}">Contact</a></li>
+                             <li><a href="{{url("/#contact");}}">Contact</a></li>
 
                     </ul>
                 </div>

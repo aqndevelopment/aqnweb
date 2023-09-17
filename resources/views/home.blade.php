@@ -20,9 +20,9 @@
                     </div>
                 </div>
 
-                <div class="sx-bnr-images">
+                <!-- <div class="sx-bnr-images">
                     <img src="{{ asset('images/banner/'.$banner->image) }}" alt="">
-                </div>
+                </div> -->
             </div>
             @endforeach
         </div>
@@ -107,7 +107,9 @@
                             </div>
 
                         </div>
-                        <div></div>
+                        <div>
+
+                        </div>
                     </div>
                     <!-- COUNTER START -->
                     <!-- <div class="counter-blocks">
@@ -180,14 +182,16 @@
                 </div>
                 <!-- TITLE END -->
 
-
+                <div class="hilite-title text-left p-l50 text-uppercase text-secondary">
+                        <strong>OUR WORKS</strong>
+                    </div>
                 <div class="section-content">
                     <div class="client-grid m-b30">
 
                         <div class="row justify-content-center">
                             @foreach($partners as $partner)
                             <div class="col-lg-3 col-md-4 col-sm-6 col-6">
-                                <a href="{{url('/partner/'.$partner->slugs)}}" class="client-logo-pic" target="_blank" >
+                                <a href="{{url('/partner/'.$partner->slugs)}}" class="client-logo-pic" target="_blank">
                                     <img src="{{ asset('images/partners/'.$partner->image) }}" alt="">
                                 </a>
                             </div>
@@ -201,6 +205,7 @@
 
         </div>
         <!-- OUR PARTNERS SECTION END -->
+        <div class="sx-div-line"></div>
 
         <!-- OUR CLIENTS SECTION START -->
         <div class="section-full p-t110 p-b80 sx-client-logo-1-outer sx-bg-white">
@@ -242,82 +247,82 @@
 
     <!-- OUR CASE STUDY SECTION -->
     <section id="ourskills">
-    <div class="section-full  p-t40 p-b80 bg-white sx-about-bx3-outer">
-        <div class="container">
-            <div class="section-content">
+        <div class="section-full  p-t40 p-b80 bg-white sx-about-bx3-outer">
+            <div class="container">
+                <div class="section-content">
 
-                <!-- COUNTER START -->
-                <div class="counter-blocks">
-                    <div class="section-head center max-900">
-                        <div class="sx-head-l-title">
-                            <h2 class="sx-title2">Our Skills</h2>
+                    <!-- COUNTER START -->
+                    <div class="counter-blocks">
+                        <div class="section-head center max-900">
+                            <div class="sx-head-l-title">
+                                <h2 class="sx-title2">Our Skills</h2>
 
+                            </div>
+                        </div>
+                        <div class="row when-item-four">
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                <div class="sx-count">
+                                    <h2 class="sx-title">
+
+                                        <span class="counter">96</span>
+                                        <span class="sx-cont-after">%</span>
+                                    </h2>
+                                    <div class="sx-count-info">Multi-fold approach</div>
+                                    <p class="text-justify">
+                                        A multi- fold approach right from people management to business risk management to new business initiatives not only local but also global.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                <div class="sx-count">
+                                    <h2 class="sx-title">
+
+                                        <span class="counter">98</span>
+                                        <span class="sx-cont-after">%</span>
+                                    </h2>
+                                    <div class="sx-count-info">Flexibility</div>
+                                    <p class="text-justify">
+                                        A multi- fold approach right from people management to business risk management to new business initiatives not only local but also global.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                <div class="sx-count">
+                                    <h2 class="sx-title">
+
+                                        <span class="counter">100</span>
+                                        <span class="sx-cont-after">%</span>
+                                    </h2>
+                                    <div class="sx-count-info">Go-local</div>
+                                    <p class="text-justify">
+                                        A multi- fold approach right from people management to business risk management to new business initiatives not only local but also global.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                <div class="sx-count">
+                                    <h2 class="sx-title">
+
+                                        <span class="counter">99</span>
+                                        <span class="sx-cont-after">%</span>
+                                    </h2>
+                                    <div class="sx-count-info">Mobile</div>
+                                    <p class="text-justify">
+                                        A multi- fold approach right from people management to business risk management to new business initiatives not only local but also global.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="row when-item-four">
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                            <div class="sx-count">
-                                <h2 class="sx-title">
-
-                                    <span class="counter">96</span>
-                                    <span class="sx-cont-after">%</span>
-                                </h2>
-                                <div class="sx-count-info">Multi-fold approach</div>
-                                <p class="text-justify">
-                                    A multi- fold approach right from people management to business risk management to new business initiatives not only local but also global.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                            <div class="sx-count">
-                                <h2 class="sx-title">
-
-                                    <span class="counter">98</span>
-                                    <span class="sx-cont-after">%</span>
-                                </h2>
-                                <div class="sx-count-info">Flexibility</div>
-                                <p class="text-justify">
-                                    A multi- fold approach right from people management to business risk management to new business initiatives not only local but also global.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                            <div class="sx-count">
-                                <h2 class="sx-title">
-
-                                    <span class="counter">100</span>
-                                    <span class="sx-cont-after">%</span>
-                                </h2>
-                                <div class="sx-count-info">Go-local</div>
-                                <p class="text-justify">
-                                    A multi- fold approach right from people management to business risk management to new business initiatives not only local but also global.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                            <div class="sx-count">
-                                <h2 class="sx-title">
-
-                                    <span class="counter">99</span>
-                                    <span class="sx-cont-after">%</span>
-                                </h2>
-                                <div class="sx-count-info">Mobile</div>
-                                <p class="text-justify">
-                                    A multi- fold approach right from people management to business risk management to new business initiatives not only local but also global.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- COUNTER  END -->
                 </div>
-                <!-- COUNTER  END -->
+
             </div>
 
         </div>
-
-    </div>
     </section>
     <!-- OUR CASE STUDY END -->
 

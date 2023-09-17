@@ -12,6 +12,12 @@ Version: 1.0
 @import url(header-2.css);
 @import url(header-3.css);
 
+
+@font-face {
+    font-family: opensauce;
+    src: url(./fonts/opensauce.ttf);
+}
+
 :root{
 
 	--primary:#fa9a0b;
@@ -6471,9 +6477,9 @@ ol.commentlist li::after {
 	white-space: nowrap;
 	transform-origin: center right;
 	opacity: 1;
-	color: var(--white);
-	-webkit-text-fill-color: rgba(0, 0, 0, 0);
-	-ms-text-fill-color: rgba(0, 0, 0, 0);
+	/* color: var(--white); */
+	/* -webkit-text-fill-color: rgba(0, 0, 0, 0); */
+	/* -ms-text-fill-color: rgba(0, 0, 0, 0);
 	-moz-text-fill-color: rgba(0, 0, 0, 0);
 	-o-text-fill-color: rgba(0, 0, 0, 0);
 	-webkit-text-stroke-width: 1px;
@@ -6483,7 +6489,7 @@ ol.commentlist li::after {
 	-webkit-text-stroke-color: var(--title-color);
 	-ms-text-stroke-color: var(--title-color);
 	-moz-text-stroke-color: var(--title-color);
-	-o-text-stroke-color: var(--title-color);
+	-o-text-stroke-color: var(--title-color); */
 	opacity: 0.45;
 }
 @media only screen and (max-width: 1500px) {
@@ -6588,7 +6594,7 @@ ol.commentlist li::after {
 scale-in-center
 ----------------------*/
 
-.icon-font-block:hover .flat-icon {
+/* .icon-font-block:hover .flat-icon {
 	-webkit-animation: bounce-in-fwd 1.1s both;
 	animation: bounce-in-fwd 1.1s both;
 }
@@ -6601,7 +6607,7 @@ scale-in-center
 .hover-animation-1:hover .scale-in-center {
 	-webkit-animation: bounce-in-fwd 1.1s both;
 	animation: bounce-in-fwd 1.1s both;
-}
+} */
 
 @-webkit-keyframes bounce-in-fwd {
 	0% {
@@ -6962,19 +6968,19 @@ large-title-block
 	width: 0px;
 	z-index: -1;
 	background-color: #f3f3f3;
-	transition: all 0.4s ease;
+	/* transition: all 0.4s ease; */
 }
 .sx-service-bx-1.reverse:after {
 	background-color: #f7f7f7;
 }
 
-.sx-service-bx-1:hover:after {
+/* .sx-service-bx-1:hover:after {
 	width: 100%;
 	left: 0;
 	-webkit-transition: width 0.3s ease;
 	transition: width 0.3s ease;
 	z-index: -1;
-}
+} */
 
 .sx-service-bx-1.reverse .sx-service-bx-icon span{
 	background-color: var(--bg-light);
@@ -6983,14 +6989,14 @@ large-title-block
 .sx-service-bx-1.reverse .sx-service-bx-icon span:after {
 	border: 2px solid #f1f1f1;
 }
-.sx-service-bx-1:hover .sx-service-bx-icon span{
+/* .sx-service-bx-1:hover .sx-service-bx-icon span{
 	position: relative;
 	top: 20px;
-}
-.sx-service-bx-1.reverse:hover .sx-service-bx-icon span{
+} */
+/* .sx-service-bx-1.reverse:hover .sx-service-bx-icon span{
 	top: 0px;
 	
-}
+} */
 
 .sx-service-bx-1.reverse {
 	padding: 30px 25px 30px;
@@ -8758,7 +8764,7 @@ New Template Css Start
 .sx-bnr-2-wrap-outer .sx-bnr-2-small-title {
     
     font-weight: 400;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 30px;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -8767,7 +8773,7 @@ New Template Css Start
 .sx-bnr-2-wrap-outer .sx-bnr-2-large-title {
     font-family: var(--title-family);
     font-weight: 800;
-    font-size: 64px;
+    font-size: 3.2rem;
     text-transform: capitalize;
     color:var(--white);
 }
@@ -9880,6 +9886,13 @@ New Template Css Start
 /*----------------------
 INPUT ANIMATION
 ------------------------*/
+
+.input-animate.input input::placeholder,
+.input-animate.input textarea::placeholder
+{
+	color:#fff;
+}
+
 
 .input-animate.input,
 .login-animate.input label,
