@@ -2451,7 +2451,7 @@ ol.list-num-count.list-outline-none>li:before {
 	font-family:var(--title-family);
 	margin-bottom: 0px;
 	font-weight: 800;
-	font-size: 60px;
+	font-size: 56px;
 	text-transform: capitalize;
 	color: var(--secondary);
 
@@ -7866,7 +7866,8 @@ New Template Css Start
 .sx-about-bx3-content-wrap .row{display: flex; align-items: center;}
 .sx-about-bx3-content{margin-bottom: 30px;}
 .sx-about-bx3-content .sx-title{
-	font-size: 60px;
+	font-family: "opensauce";
+	font-size: 58px;
 	color: var(--secondary);
 	margin-bottom: 0px;
 	font-family: var(--title-family);
@@ -8773,7 +8774,7 @@ New Template Css Start
 .sx-bnr-2-wrap-outer .sx-bnr-2-large-title {
     font-family: var(--title-family);
     font-weight: 800;
-    font-size: 3.2rem;
+    font-size: 3.6rem;
     text-transform: capitalize;
     color:var(--white);
 }

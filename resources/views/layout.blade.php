@@ -2,7 +2,19 @@
 <html lang="en">
 
 <head>
-
+    <!-- <script src="https://www.google.com/recaptcha/enterprise.js?render=6LffVDEoAAAAAIZHpC2KLl-k-LkCD8BQT_EVvOac"></script>
+    <script>
+        function onClick(e) {
+        e.preventDefault();
+        grecaptcha.enterprise.ready(async () => {
+            const token = await grecaptcha.enterprise.execute('6LffVDEoAAAAAIZHpC2KLl-k-LkCD8BQT_EVvOac', {action: 'LOGIN'});
+            // IMPORTANT: The 'token' that results from execute is an encrypted response sent by
+            // reCAPTCHA Enterprise to the end user's browser.
+            // This token must be validated by creating an assessment.
+            // See https://cloud.google.com/recaptcha-enterprise/docs/create-assessment
+        });
+        }
+        </script> -->
     <!-- META -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -112,6 +124,13 @@
         });
     });
     </script>
+    <!-- @if(session('success'))
+    <script>
+        $(document).ready(function () {
+            $('#successModal').modal('show');
+        });
+    </script>
+    @endif -->
 </body>
 
 

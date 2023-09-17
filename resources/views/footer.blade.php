@@ -25,8 +25,8 @@
                     <!-- EXPLORE LINKS -->
                     <div class="col-xl-8 col-lg-8 col-md-6 col-sm-6 col-6 col">
                         <h4 class="sx-title text-light">Get In Touch</h4>
-                        <form class="cons-contact-form2 form-transparent" method="post" action="form-handler2.php">
-
+                        <form class="" method="POST" action="{{ route('contact.send') }}">
+                             @csrf
                             <div class="input input-animate">
                                 <input type="text" name="name" id="name" required="" placeholder="Your Name" class="bg-secondary p-1 contactus">
                                 <span class="spin" style="width: 0px;"></span>
@@ -64,5 +64,33 @@
                     
                 </div>
                 <!-- FOOTER COPYRIGHT -->
+                <!-- Success Popup Modal -->
+                <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="successModalLabel">Success!</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Your message has been sent successfully.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @if(session('success'))
+                <script>
+                    $(document).ready(function () {
+                        $('#successModal').modal('show');
+                    });
+                </script>
+                @endif
+
+
     </section>
 </footer>

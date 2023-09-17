@@ -19,8 +19,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'index'])->name('home');;
 Route::get('/ourteam', [OurteamController::class, 'index']);
-Route::get('/contact', [ContactController::class, 'index']);
 Route::get('/partner/{slug}', [PartnerController::class, 'show'])->name('partner.show');
 
+
+Route::post('/contact', [ContactController::class, 'sendEmail'])->name('contact.send');

@@ -46,7 +46,7 @@
                                 <div class="sx-about-bx3-content">
                                     <h2 class="sx-title">WE LISTEN, COLLABORATE & DELIVER !</h2>
 
-                                    <span class="sx-title-2">COLLABORATE & DELIVER ! PT. Asia Quattro Net (AQN) is a Solution Integrator company based in Indonesia. Since it is founded in early 2005, the company has successfully helping partners and customer implement telecommunication and technology solutions, VAS platforms, digital services. Some customers are Indonesia mobile operator like Telkomsel, XL, Indosat, Three, Axis, as well as services providers and enterprises. </span>
+                                    <span class="sx-title-2 text-secondary">COLLABORATE & DELIVER ! PT. Asia Quattro Net (AQN) is a Solution Integrator company based in Indonesia. Since it is founded in early 2005, the company has successfully helping partners and customer implement telecommunication and technology solutions, VAS platforms, digital services. Some customers are Indonesia mobile operator like Telkomsel, XL, Indosat, Three, Axis, as well as services providers and enterprises. </span>
                                 </div>
                             </div>
 
@@ -174,7 +174,7 @@
 
                 <!-- TITLE START -->
                 <div class="section-head center max-900">
-                    <div class="sx-head-s-title">Our Works</div>
+                    <div class="sx-head-l-title"><h2 class="sx-title2">OUR WORKS</h2></div>
                     <div class="sx-head-l-title">
                         <h2 class="sx-title2">Some of our partners</h2>
                         <p class="text-justify">Since its establishment, AQN has been representing its technology partners providing solutions in telecommunications, IT and mobile digital areas to mobile operators and enterprises in Indonesia. Focusing to solution offerings and integrations among various key technology elements. Providing project management, installations and technical supports from 2005 until today. With team that is keep learning and evolving along with technology trends and evolutions.</p>
@@ -213,7 +213,7 @@
 
                 <!-- TITLE START -->
                 <div class="section-head center max-900">
-                    <div class="sx-head-s-title">Our Clients</div>
+                    <!-- <div class="sx-head-s-title">Our Clients</div> -->
                     <div class="sx-head-l-title">
                         <h2 class="sx-title2">Our major clients</h2>
                         <p class="text-justify"></p>
@@ -256,7 +256,6 @@
                         <div class="section-head center max-900">
                             <div class="sx-head-l-title">
                                 <h2 class="sx-title2">Our Skills</h2>
-
                             </div>
                         </div>
                         <div class="row when-item-four">
