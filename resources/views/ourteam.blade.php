@@ -4,25 +4,21 @@
 
 <div class="page-content">
             <!-- INNER PAGE BANNER -->
-            <div class="full-landing-image sx-bnr-inr overlay-wraper  bg-top-center" style="background-image:url(images/background/ourteam.jpg);">
+            <div class="full-landing-image sx-bnr-inr overlay-wraper  bg-top-center" style="background-image:url(images/background/ourteam_2.jpg);">
             	<div class="overlay-main bg-white opacity-0"></div>
                 
                 <div class="container">
                     <div class="sx-bnr-inr-entry">
                     	<div class="banner-title-outer">
                         	<div class="banner-title-name">
-                                <span class="sx-bnr-sm-title">Team AQN</span>
+                                <span class="sx-bnr-sm-title">Our Team</span>
                         		<h2 class="sx-title">Meet the AQN's finest.</h2>
-                                <p style="font-size: 1.3rem; line-height:2rem; color:#fa9a0b" class="text-white text-justify">With experience more than 20 years in Telecommunication industry both in areas of technology provider and service provider, AQN is lead and founded by 3 member of management team, since its establishment in 2005. with solid experience, they lead a group of young and talented team to keep AQN abreast in evolving business and technology.</p>
+                              
                             </div>                            
                         </div>
                                               
                     </div>
                 </div> 
-                <div class="sx-bnr-outline-text">
-                    <h1>Our Team</h1>
-                </div> 
-
             </div>
             <!-- INNER PAGE BANNER END -->
 
@@ -39,6 +35,7 @@
                             <h2 class="sx-title">Management</h2>
                         </div>
                         <div class="sx-head-s-title">Astrida W.  |  Agung B. Laksono  |  Suliana W.</div>
+                        <p style="font-size: 1.3rem; line-height:2rem;" class="text-secondary text-justify">With experience of more than 20 years in the Telecommunications industry, both in areas of technology provider and service provider, AQN is lead and founded by 3 members in 2005 that now make the management team. With solid experience, they lead a team of young and talented people to keep AQN abreast in evolving business and technology.</p>
                     </div>                   
                     <!-- TITLE END -->
                     <div class="section-content">
