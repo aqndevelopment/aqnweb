@@ -124,13 +124,31 @@
         });
     });
     </script>
-    <!-- @if(session('success'))
     <script>
-        $(document).ready(function () {
-            $('#successModal').modal('show');
+    // Wait for the document to be ready
+    $(document).ready(function () {
+        // Select the form and toast elements
+        const $form = $('#formcontact');
+        const $successToast = $('#successToast');
+
+        // Add an event listener to the form submission
+        $form.submit(function (e) {
+            e.preventDefault(); // Prevent the default form submission behavior (page reload)
+            
+            // You can perform form validation and submission logic here
+            
+            // If the form submission is successful, show the success toast
+            $successToast.toast('show');
         });
-    </script>
-    @endif -->
+
+        // Add an event listener for the toast's hidden event
+        $successToast.on('hidden.bs.toast', function () {
+            // After the toast is closed, submit the form
+            $form.off('submit'); // Remove the form submission listener temporarily
+            $form.submit(); // Trigger the form submission
+        });
+    });
+</script>
 </body>
 
 
