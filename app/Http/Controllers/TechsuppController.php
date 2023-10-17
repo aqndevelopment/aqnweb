@@ -10,7 +10,7 @@ class TechsuppController extends Controller
     {
 
         // Pass all data to the home view using a single associative array
-        return view('Techsupport');
+        return view('techsupport');
     }
 }
 
