@@ -48,10 +48,17 @@
                             </div>
 
                             <div class="sx-btn-center text-right p-t5">
-                                <button id="submitForm" type="submit" class="site-button sx-btn-primary icon sx-btn-lg">
+                            <button id="submitForm" class="g-recaptcha site-button sx-btn-primary icon sx-btn-lg" 
+                                data-sitekey="6LfLbQQpAAAAACSYkv8ebS5d2Ed5p0Vjknz3zRA3" 
+                                data-callback='onSubmit' 
+                                data-action='submit'>
+                                <i class="fa fa-long-arrow-right"></i>
+                                    Send Message
+                            </button>
+                                <!-- <button id="submitForm" type="submit" class="site-button sx-btn-primary icon sx-btn-lg">
                                     <i class="fa fa-long-arrow-right"></i>
                                     Send Message
-                                </button>
+                                </button> -->
                             </div>
                         </form>
                     </div>

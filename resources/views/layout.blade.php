@@ -104,6 +104,12 @@
     <script src="{{asset('js/lc_lightbox.lite.js')}}"></script><!-- IMAGE POPUP -->
     <script src="{{asset('js/swiper-bundle.min.js')}}"></script><!-- Swiper js -->
     <script src="{{asset('js/custom.js')}}"></script><!-- CUSTOM FUCTIONS  -->
+    <script src="https://www.google.com/recaptcha/api.js"></script><!-- GOOGLE reCAPTCHA  -->
+    <script>
+        function onSubmit(token) {
+            document.getElementById("formcontact").submit();
+        }
+    </script>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
         const navLinks = document.querySelectorAll("nav a");
